@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: Green;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  padding: 16px;
+  background-color: Lightgreen;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0 22px 0;
+  display: inline-block;
+  border: none;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+}
+.cancelbtn {
+  background-color: #4CAF50;
+  color: white;
+  right:400px;
+  top:700px;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+
+a {
+  color: dodgerblue;
+}
+
+</style>
+</head>
+<body>
+	<div id="form_wrapper">
+            <div id="form_right">
+				<div class="right-box">
+					<button class="social facebook">Log In with Facebook</button>
+					<button class="social Google">Log In with Google+</button>
+		
+				</div>
+<form action="/action_page.php">
+  <div class="container">
+    <h1>Students Registration</h1>
+    <hr>
+
+    <label for="email"><b>Full Name</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+	
+	<label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+	
+	<label for="psw"><b>Confirm Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+	
+    <label for="psw-repeat"><b>Input ID Number</b></label>
+    <input type="password" placeholder="ID Number" name="psw-repeat" required>
+    <hr>
+    
+    <button type="submit" class="registerbtn"><a href="ryan.html">Register</a>.</p>
+	<p> <button type="submit" class="cancelbtn">Cancel</button> <p>
+  </div>
+  
+  <div class="container signin">
+    <p>Already have an account? <a href="ryan.html">Sign in!</a>.</p>
+	<input type="checkbox" checked="checked" name="I agree to AIMS Terms And Conditions And Privacy Policys"> I agree to Terms And Conditions And Privacy Policy
+      </label>
+                <span> <a href="#"> Username / Password ?</a></span>
+
+        </span>
+  </div>
+</form>
+
+</body>
+</html>

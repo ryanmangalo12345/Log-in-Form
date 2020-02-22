@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: green;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 16px;
+  background-color: lightgreen;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.Submitbtn {
+  background-color: #4CAF50;
+  color: blue;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+}
+.Cancelbtn {
+  background-color: #4CAF50;
+  color: blue;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  position: fixed;
+  left:800px;
+  top:560px;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+}
+
+.forgotpassword:hover {
+  opacity: 1;
+}
+
+
+a {
+  color: dodgerblue;
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="login-image">
+				<img src="St.jude logo.png" height="100" width="100">
+			</div><br>
+
+<form action="/action_page.php">
+  <div class="container">
+    <h1>Log In Form</h1>
+    <p></p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b> Enter Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Account ID Number</b></label>
+    <input type="password" placeholder="Enter ID Number" name="psw-repeat" required>
+    <hr>
+	<button type="submit" class="Submitbtn">Submit</button>
+  </div>
+  
+  <button type="Cancel" class="Cancelbtn">Cancel</button>
+  </div>
+	
+	<input type="checkbox" checked="checked" name="I agree to AIMS Terms And Conditions And Privacy Policys"> I agree to Terms And Conditions And Privacy Policy
+      </label>
+	  
+  <div class="container signin">
+    <p>Dont have an account? <a href="Dikoalam.html">Sign up!</a>.</p>
+	
+
+  </div>
+</form>
+
+</body>
+</html>
